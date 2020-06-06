@@ -1,1 +1,13 @@
 ...
+Assignment:
+1. restaurants.json : A collection of data to be used for the assignment
+2. MongoDB assignment.txt : Questions and their solutions
+
+To import the data and work on it : - 
+1. In mongo.exe, create a database and collection
+2. Copy the json file in C:\data\db\ folder. (If not exists, create the directories manually)
+3. In command prompt, use the following command
+      mongoimport --jsonarray --db db_name --collection coll_name --file /complete_path/restaurants.json
+4. Check in mongo.exe, whether collection is uploaded, using
+      db.coll_name.find().pretty()
+      
