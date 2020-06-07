@@ -1,3 +1,8 @@
+/*
+Exercise -10 ( First n prime numbers in a series)
+Write a program to generate the first n prime numbers in the series ---2,3,5,7,9,11,..., 17
+*/
+
 import java.util.Scanner;
 
 public class PrimeInSeries{
@@ -16,13 +21,17 @@ public class PrimeInSeries{
 
 	public static void main(String[] args) {
 		
-		int numLimit;
+		int numLimit, i = 2;
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter the number:");
 		numLimit = scanner.nextInt();
-		for (int i =2; i <=numLimit ;i++ ) {
+		while(numLimit>0) {
 			if(isPrime(i))
+			{
+				numLimit--;
 				System.out.print(i + "\t ");
+				i++;
+			}
 		}
 	}
 }
