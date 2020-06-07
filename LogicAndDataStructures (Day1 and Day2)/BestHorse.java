@@ -1,4 +1,5 @@
-// Ex 3 - Best Horse for King
+/*Exercise -3 : Write a program to accept the weights of 3 horses and display the weight of the horse with maximum weight. If to horses are of same weight and are best then should show message ,”Entered weights are not distinct values” 
+*/
 
 import java.lang.*;
 import java.util.Scanner;
