@@ -1,4 +1,5 @@
 // Ex 1 - The Glass House
+//Write a generic program which accepts a two digit number and find the exit door number of the glasshouse.
 
 import java.lang.*;
 import java.util.Scanner;
