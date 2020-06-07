@@ -1,3 +1,5 @@
+Ex 8 : Write a program to find whether a given number is an Armstrong number or not.
+
 import java.util.Scanner;
 
 public class ArmstrongNumber{
