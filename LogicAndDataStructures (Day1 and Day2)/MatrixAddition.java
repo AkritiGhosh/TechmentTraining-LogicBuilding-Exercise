@@ -1,3 +1,8 @@
+/*
+Exercise -39 (Matrix Manipulation)
+Write a program to accept the data of two matrix from the user and display the sum of the matrix.
+*/
+
 import java.util.Scanner;
 
 public class MatrixAddition{
