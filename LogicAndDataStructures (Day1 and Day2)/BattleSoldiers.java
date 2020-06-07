@@ -1,3 +1,5 @@
+//Exercise -7: Write a program to display the soldiers whose numbers are between the first and the last number that the king calls out.
+
 import java.util.Scanner;
 
 public class BattleSoldiers{
