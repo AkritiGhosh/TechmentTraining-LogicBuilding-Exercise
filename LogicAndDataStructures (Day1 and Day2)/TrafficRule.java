@@ -1,4 +1,5 @@
-// Ex 2 - Even Odd Traffic Rule
+// Exercise -2 ( Traffic Congestion-Even Odd rule )
+//Write a program to accept the day value as input and display appropriate message as output based on the day .
 
 import java.lang.*;
 import java.util.Scanner;
