@@ -1,3 +1,7 @@
+/*
+Exercise -9 ( First n terms in a series)
+Write a program to generate the first n terms in the series ---1, 8, 27, 64, 125
+*/
 import java.util.Scanner;
 
 public class CubeSeries{
