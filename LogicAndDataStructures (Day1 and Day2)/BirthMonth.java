@@ -1,3 +1,8 @@
+/*
+Exercise -5 ( My Birth Month )
+Write a program to accept the month of birth as number and displays appropriate message to print the month name. Use Switch statement . If input is not a valid month number should show error message as Invalid Month
+*/
+
 import java.util.Scanner;
 
 public class BirthMonth{
