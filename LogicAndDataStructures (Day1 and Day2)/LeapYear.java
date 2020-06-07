@@ -1,3 +1,7 @@
+/*
+Exercise -4 ( Leap Year Event )
+Write a program to accept a year value as input and display if the year is a leap year or not
+*/
 import java.util.Scanner;
 
 public class LeapYear{
