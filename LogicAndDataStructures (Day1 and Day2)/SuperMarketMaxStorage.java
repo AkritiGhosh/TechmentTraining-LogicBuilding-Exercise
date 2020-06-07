@@ -1,3 +1,9 @@
+/*
+Exercise -13 ( The Super Market-Stock Challenge)
+Create an array and store the product quantities and find the maximum
+value and print it
+*/
+
 import java.util.Scanner;
 
 public class SuperMarketMaxStorage{
