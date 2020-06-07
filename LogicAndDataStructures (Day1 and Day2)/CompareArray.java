@@ -1,3 +1,8 @@
+/*
+Exercise -15 ( Compare two Arrays)
+Write a program to accept values into two separate arrays , then compare the values and print if they are same or different.
+*/
+
 import java.util.Scanner;
 
 public class CompareArrays{
