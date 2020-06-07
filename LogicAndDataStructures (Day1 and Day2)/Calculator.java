@@ -1,3 +1,8 @@
+/*
+Exercise -6 ( Simple Calculator )
+Write a program to accept two numbers and an operator to perform mathematical operation on the operands and display the result as output.
+*/
+
 import java.util.Scanner;
 
 public class Calculator{
