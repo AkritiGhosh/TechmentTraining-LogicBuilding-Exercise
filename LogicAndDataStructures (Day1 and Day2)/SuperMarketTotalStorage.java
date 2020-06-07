@@ -1,3 +1,8 @@
+/*
+Exercise -14 ( The Super Market-Total Stock)
+Use an array to store values and find the sum of the elements using a loop.
+*/
+
 import java.util.Scanner;
 
 public class SuperMarketTotalStorage{
