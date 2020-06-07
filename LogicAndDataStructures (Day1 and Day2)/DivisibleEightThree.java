@@ -1,3 +1,8 @@
+/*
+Exercise -16 ( Divisible by 8 and 3)
+Write a program to accept a number and display it itis divisible by both 8 and 3
+*/
+
 import java.util.Scanner;
 
 public class DivisibleEightThree{
