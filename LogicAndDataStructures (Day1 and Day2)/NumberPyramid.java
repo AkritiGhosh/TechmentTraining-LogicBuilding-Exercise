@@ -1,4 +1,6 @@
 /*
+Exercise -12 ( Print the Pattern)
+
 for num = 10
                     10
                   9 10 9
