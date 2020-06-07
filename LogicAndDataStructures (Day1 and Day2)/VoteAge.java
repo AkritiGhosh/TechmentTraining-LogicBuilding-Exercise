@@ -1,3 +1,8 @@
+/*
+Exercise -17 ( Invalid Age Exception)
+Write a program that accepts the age of the user as input. If the age is atleast18 it should display message “Welcome to Vote” . When the age of the user is less than 18, a custom exception named InvalidAgeExceptionis thrown.
+*/
+
 import java.util.Scanner;
 
 public class VoteAge{
