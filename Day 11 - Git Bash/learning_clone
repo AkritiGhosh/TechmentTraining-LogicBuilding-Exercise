@@ -1,3 +1,3 @@
 Creating a file on an existing GITHUB account. 
 Then cloning the entire repository to the local system using GIT Bash to add or modify.
---> git.clone repository
+--> git clone "repository_link"
