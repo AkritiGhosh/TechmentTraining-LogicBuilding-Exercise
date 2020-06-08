@@ -1,0 +1,349 @@
+GIT Command History of the repository "ArrayFunction"
+
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git
+$ git clone https://github.com/Techment-Group3/ArrayFunctions.git
+Cloning into 'ArrayFunctions'...
+warning: You appear to have cloned an empty repository.
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git
+$ cd ArrayFunctions/
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git branch akriti
+fatal: Not a valid object name: 'master'.
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git branch local_akriti
+fatal: Not a valid object name: 'master'.
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git branch
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git show-branch
+No revs to be shown.
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git branch local_akriti
+fatal: Not a valid object name: 'master'.
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git branch local_akriti
+fatal: Not a valid object name: 'master'.
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git branch master
+fatal: Not a valid object name: 'master'.
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git pull
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/Techment-Group3/ArrayFunctions
+ * [new branch]      master     -> origin/master
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git branch local_akriti
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git checkout local_akriti
+Switched to branch 'local_akriti'
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git add ArrayDuplicateRemoval.java
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git commit -m "Duplicate value removal"
+[local_akriti 347af2f] Duplicate value removal
+ 1 file changed, 51 insertions(+)
+ create mode 100644 ArrayDuplicateRemoval.java
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git push origin local_akriti
+remote: Permission to Techment-Group3/ArrayFunctions.git denied to AkritiGhosh.
+fatal: unable to access 'https://github.com/Techment-Group3/ArrayFunctions.git/': The requested URL returned error: 403
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git push origin local_akriti
+remote: Permission to Techment-Group3/ArrayFunctions.git denied to AkritiGhosh.
+fatal: unable to access 'https://github.com/Techment-Group3/ArrayFunctions.git/': The requested URL returned error: 403
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git status
+On branch local_akriti
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        MatrixAddition.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git add MatrixAddition.java
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git commit -m "Matrix addition"
+[local_akriti eeefa18] Matrix addition
+ 1 file changed, 57 insertions(+)
+ create mode 100644 MatrixAddition.java
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git status
+On branch local_akriti
+nothing to commit, working tree clean
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git push origin local_akriti
+remote: Permission to Techment-Group3/ArrayFunctions.git denied to AkritiGhosh.
+fatal: unable to access 'https://github.com/Techment-Group3/ArrayFunctions.git/': The requested URL returned error: 403
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git push origin master:local_akriti
+remote: Permission to Techment-Group3/ArrayFunctions.git denied to AkritiGhosh.
+fatal: unable to access 'https://github.com/Techment-Group3/ArrayFunctions.git/': The requested URL returned error: 403
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git push
+remote: Permission to Techment-Group3/ArrayFunctions.git denied to AkritiGhosh.
+fatal: unable to access 'https://github.com/Techment-Group3/ArrayFunctions.git/': The requested URL returned error: 403
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git checkout local_akriti
+Switched to branch 'local_akriti'
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git push
+fatal: The current branch local_akriti has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin local_akriti
+
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> local_akriti
+
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git pull local_akriti
+fatal: 'local_akriti' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git pull local_akriti
+fatal: 'local_akriti' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git checkout local_akriti
+Switched to branch 'local_akriti'
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git add ArrayDuplicateRemoval.java
+fatal: pathspec 'ArrayDuplicateRemoval.java' did not match any files
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git add ArrayDuplicateRemoval.java
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git commit -m "Duplicate value removal"
+[master 74776d6] Duplicate value removal
+ 1 file changed, 51 insertions(+)
+ create mode 100644 ArrayDuplicateRemoval.java
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git add MatrixAddition.java
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git commit -m "Matrix addition"
+[master 7b136d0] Matrix addition
+ 1 file changed, 57 insertions(+)
+ create mode 100644 MatrixAddition.java
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git push
+remote: Permission to Techment-Group3/ArrayFunctions.git denied to AkritiGhosh.
+fatal: unable to access 'https://github.com/Techment-Group3/ArrayFunctions.git/': The requested URL returned error: 403
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git push origin master
+remote: Permission to Techment-Group3/ArrayFunctions.git denied to AkritiGhosh.
+fatal: unable to access 'https://github.com/Techment-Group3/ArrayFunctions.git/': The requested URL returned error: 403
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ ^C
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.39 KiB | 118.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/Techment-Group3/ArrayFunctions.git
+   cd0f6a9..7b136d0  master -> master
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git checkout local_akriti
+Switched to branch 'local_akriti'
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git merge local_akriti
+Merge made by the 'recursive' strategy.
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git checkout local_akriti
+Switched to branch 'local_akriti'
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git add CompareArray.java
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git satus
+git: 'satus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git status
+
+On branch local_akriti
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   CompareArray.java
+
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git commit -m "new file via branch"
+[local_akriti f901968] new file via branch
+ 1 file changed, 42 insertions(+)
+ create mode 100644 CompareArray.java
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git push origin local_akriti
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.96 KiB | 133.00 KiB/s, done.
+Total 9 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote:
+remote: Create a pull request for 'local_akriti' on GitHub by visiting:
+remote:      https://github.com/Techment-Group3/ArrayFunctions/pull/new/local_akriti
+remote:
+To https://github.com/Techment-Group3/ArrayFunctions.git
+ * [new branch]      local_akriti -> local_akriti
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (local_akriti)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git merge local_akriti
+Merge made by the 'recursive' strategy.
+ CompareArray.java | 42 ++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 42 insertions(+)
+ create mode 100644 CompareArray.java
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git push
+Enumerating objects: 2, done.
+Counting objects: 100% (2/2), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 460 bytes | 92.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To https://github.com/Techment-Group3/ArrayFunctions.git
+   7b136d0..a3a326d  master -> master
+
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$ git log
+commit a3a326da8bfb717a912de64f19d3be79717192e3 (HEAD -> master, origin/master)
+Merge: d3f3cf7 f901968
+Author: AkritiGhosh <35495128+AkritiGhosh@users.noreply.github.com>
+Date:   Mon Jun 8 12:42:32 2020 +0530
+
+    Merge branch 'local_akriti'
+
+commit f9019680adb759f20601e329ec5b38d69264e9e2 (origin/local_akriti, local_akriti)
+Author: AkritiGhosh <35495128+AkritiGhosh@users.noreply.github.com>
+Date:   Mon Jun 8 12:28:11 2020 +0530
+
+    new file via branch
+
+commit d3f3cf7eddae8bdc03fcb820289508512a70a5ac
+Merge: 7b136d0 eeefa18
+Author: AkritiGhosh <35495128+AkritiGhosh@users.noreply.github.com>
+Date:   Mon Jun 8 12:24:29 2020 +0530
+
+    Merge branch 'local_akriti'
+
+    merging
+
+commit 7b136d06814563eab5109cd0a7b5daf7d6c21810
+Author: AkritiGhosh <35495128+AkritiGhosh@users.noreply.github.com>
+Date:   Mon Jun 8 12:21:33 2020 +0530
+
+    Matrix addition
+
+
+commit 347af2f6b08faa15883ab24017b4a330c1651f7a
+Author: AkritiGhosh <35495128+AkritiGhosh@users.noreply.github.com>
+Date:   Mon Jun 8 12:12:02 2020 +0530
+
+    Duplicate value removal
+
+commit cd0f6a9e24f18ed313625a7aae39ae726a8c49bd
+Author: Pooja Sahu <31413793+poojasahu29@users.noreply.github.com>
+Date:   Mon Jun 8 11:48:00 2020 +0530
+
+    Initial commit
+(END)
+
+CG-DTE@CG-DTE-Student MINGW64 ~/Downloads/techment/git/ArrayFunctions (master)
+$
