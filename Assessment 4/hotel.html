@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ABC Hotel</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body,h2,h3,h4,h5,h6 {font-family: "Lucida Calligraphy", sans-serif; font-weight: 300;align-self: center;}
+            .nav_bar{position:fixed;width:100%;z-index:1;top:0;}
+            w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+            body, html {
+                background-color: burlywood;
+            height: 100%;
+            line-height: 1.8;
+            }
+            a{
+                padding: 5px;
+                color: black;
+            }
+            h1{
+                font-family:"Monotype Corsiva", sans-serif;
+                background-color:blanchedalmond;
+                background-position: center;
+                background-position-x: center;
+                opacity: "0.5";
+            }
+            form{
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "nav_bar" id = "My_navbar" >
+            <h1>
+            <a href="#" id = "nav_item">Logo</a>
+            <a href="#" id = "nav_item">Home</a>
+            <a href="#" id = "nav_item">About Us</a>
+            <a href="#Menu" id = "nav_item">Menu</a>
+            <a href="#" id = "nav_item">Location</a>
+            <a href="#Login" id = "nav_item">Login</a>
+            <a href="#order" id = "nav_item">Book Food</a>
+            </h1>
+        </div>
+        <br><br><br>
+        <div>
+            <img src="2.jpg" alt="restaurant" width="100%">
+        </div>
+        <br><br><br>
+        <div class="section" id = "trending">
+            <div class="section_head" width="100%"><h1>Trending</h1> </div>
+            <center>
+                <img src="starter.jpg"alt="Starter"> 
+                <img src="burger.jpg"alt="Fastfood">
+                <img src="maincourse.jpg"alt="Main - Course">
+                <img src="thali.jpg"alt="Thali">
+                <img src="cake.jpg"alt="Dessert">
+            </center>            
+        </div>
+        <div id="Menu" class="section">
+            <h1 > Menu</h1>
+            <center><img src="menu.jpg" width="85%"></center>
+        </div>
+        <hr>
+        <center>
+        <div>
+            <h1 id = "Login"> Login</h1>    </center>
+
+            <form>
+                <label for="email">Enter email</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="pws">Enter password</label><br>
+            <input type="password" id="pwd" name="pwd"><br><br>
+            <button type="submit"> Submit</button>
+            </form>
+            <hr>
+        <center><h1 id="order"> Order now</h1>    </center>
+
+            <form>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Enter email</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="pws">Enter password</label><br>
+                <input type="password" id="pwd" name="pwd"><br><br>
+                <label for="address">Address</label><br>
+                <textarea id="address" name="address"></textarea><br><br>
+            <button type="submit"> Submit</button>
+            </form>
+        </div>
+    </body>
+
